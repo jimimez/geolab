@@ -1,20 +1,56 @@
 .slider {
-	height:1280px;
-	background: url(../images/sliderimage1.png);
+	max-width: 1920px;
+	max-height:1280px;
+	overflow: hidden;
+	/*background: url(../images/sliderimage1.png);*/
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding:30px;
+	/*padding:30px;*/
 	position: relative;
 }
 
+.slider img {
+	width:100%;
+}
+
+.logo {
+	width:100%;
+	position: absolute;
+	top: 30px;
+	left:30px;
+}
+
+.logo-text img:nth-child(1) {
+	width:6%;
+}
+
+.logo-text img:nth-child(2) {
+	width:4.9%;
+}
+
+.logo-text img:nth-child(3) {
+	width:4.9%;
+}
+
+.logo-text img:nth-child(4) {
+	width:5.4%;
+}
+
+.dot img {
+	width:2.3%;
+}
+
 .dot {
-	padding-left: 234px;
+	padding-left: 13%;
 }
 
 .burger {
+	position: absolute;
+	top:30px;
+	right:30px;
 	width:45px;
 	height: 45px;
-	float:right;
+	/*float:right;*/
 }
 
 .burger-line {
@@ -38,8 +74,8 @@
 }
 
 .sm-ball {
-	width:30px;
-	height:30px;
+	width: 1.6%;
+	padding-top: 1.6%;
 	
 }
 
@@ -48,13 +84,13 @@
 }
 
 .balls .sm-ball:nth-child(1) {
-	top:21%;
-	left:15%;
+	top: 26%;
+    left: 13%;
 }
 
 .balls .sm-ball:nth-child(2) {
-	top:19%;
-	left:54%;
+	top: 28%;
+    left: 54%;
 }
 
 .balls .sm-ball:nth-child(3) {
@@ -63,12 +99,12 @@
 }
 
 .balls .sm-ball:nth-child(4) {
-	top: 31%;
-    left: 71%;
+	top: 45%;
+    left: 69%;
 }
 
 .balls .md-ball:nth-child(5) {
-	top: 25%;
+	top: 38%;
     left: 81%;
     opacity: 0.5;
 }
@@ -86,14 +122,14 @@
 }
 
 .balls .md-ball:nth-child(8) {
-	top: 39%;
+	top: 57%;
     left: 54%;
     opacity: 0.5;
 }
 
 .balls .lg-ball:nth-child(9) {
-	top: 17%;
-    left: 19%;
+	top: 28%;
+    left: 22%;
     opacity: 0.5;
 }
 
@@ -111,29 +147,67 @@
 }
 
 .md-ball {
-	width:60px;
-	height: 60px;
+	width: 3.1%;
+	padding-top: 3.1%;
 }
 
 .lg-ball {
-	width:150px;
-	height:150px;
+	width: 7.8%;
+	padding-top: 7.8%;
 }
 
 .xl-ball {
-	width:200px;
-	height: 200px;
+	width: 10.4%;
+	padding-top: 10.4%;
 	opacity: 1;
 	top:50%;
-	transform: translateY(-50%);
+	
 }
 
 .xl-ball-left {
 	left:0;
-	transform: translateX(-50%);
+	transform: translate(-50%, -70%);
 }
 
 .xl-ball-right {
 	right:0;
-	transform: translateX(50%);
+	transform: translate(50%, -70%);
+}
+
+.slider-text {
+	color:white;
+	position: absolute;
+    text-align: right;
+    right: 30px;
+    bottom: 30px;
+}
+
+.slider-title {
+	font-size: 4vw;
+}
+
+.slider-date {
+	font-size: 5vw;
+}
+
+.service {
+	padding-top: 5%;
+	background: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.service-types {
+	margin: auto;
+    width: 63.7%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+
+}
+
+.service-item {
+	background: #EBE8DE;
+	width: 20vw;
+    height: 20vw;
 }
