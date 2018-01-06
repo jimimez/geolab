@@ -9,6 +9,10 @@
 	position: relative;
 }
 
+.flex{
+	display:flex;
+}
+
 .slider img {
 	width:100%;
 }
@@ -192,6 +196,7 @@
 
 .service {
 	padding-top: 5%;
+	padding-bottom: 5%;
 	background: white;
 	text-transform: uppercase;
 	text-align: center;
@@ -210,4 +215,72 @@
 	background: #EBE8DE;
 	width: 20vw;
     height: 20vw;
+    font-size: 4vw;
+}
+
+.service-title {
+	font-size: 4vw;
+}
+
+.map {
+	width:90%;
+	margin:auto;
+}
+
+.contact-info {
+	background: #EBE8DE;
+	width:40%;
+}
+
+.contact {
+	position: relative;
+}
+
+.contact-form {
+	width:80%;
+	position: absolute;
+	bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form-content {
+	background: white;
+	padding-left: 7%;
+}
+
+.form-left input {
+	background: #F2F2F2;
+	border: none;
+}
+
+form {
+	width:60%;
+}
+
+
+.form-right {
+	margin-left: 7%;
+}
+
+.form-content > p {
+	font-size:4vw;
+}
+
+.contact-info > p {
+	font-size: 4vw;
+	padding-top: 5%;
+    padding-left: 5%;
+}
+
+.form-left input {
+	padding: 5%;
+}
+
+.form-left input {
+	width:100%;
+}
+
+.form-left {
+	width:40%;
 }
