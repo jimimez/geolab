@@ -3,28 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <title></title>
 </head>
 <body>
 <div class="slider">
+	<div id="slider-cover" class="slider-cover">
+	<div class="menu">
+		<p>home</p>
+		<p>services</p>
+		<p>contact</p>
+	</div>
+		
+	</div>
 	<img src="images/sliderimage1.png">
-	<div class="burger">
-		<div class="burger-line"></div>
-		<div class="burger-line"></div>
-		<div class="burger-line"></div>
+	<div id="burger" class="burger" onclick="burger()">
+		<div id="line1"  class="burger-line"></div>
+		<div id="line2" class="burger-line"></div>
+		<div id="line3" class="burger-line"></div>
 	</div>
 	<div class="logo">
-		<div class="dot">
-			<img src="images/dot.png">
-		</div>
-		<div class="logo-text">
-			<img src="images/a.png">
-			<img src="images/u.png">
-			<img src="images/t.png">
-			<img src="images/o.png">
-		</div>
+		<img src="images/logo.svg">
 	</div>
 	<div class="balls">
 		<div class="ball sm-ball red"></div>
@@ -46,20 +49,25 @@
 	</div>
 </div>
 <section class="service">
-	<div class="service-title">The corner garage for collector cars</div>
-	<div class="service-types">
-		<div class="service-item col-xs-4">
-			<img src="">
-			<p>MODIFY</p>
+	<div class="container service-title">The corner garage for collector cars</div>
+	
+		<div class="row flex">
+			<div class="service-item col-sm-4">
+				<p>MODIFY</p>
+			</div>
+			<div class="service-item col-sm-4">
+				<p>BUY</p>
+			</div>
+			<div class="service-item col-sm-4">
+				<p>REPAIR</p>
+			</div>
 		</div>
-		<div class="service-item col-xs-4">
-			<img src="">
-			<p>BUY</p>
-		</div>
-		<div class="service-item col-xs-4">
-			<img src="">
-			<p>REPAIR</p>
-		</div>
+	
+	<div class="anim">
+		<img src="images/road.svg">
+		<img src="images/mountain.svg">
+		<img src="images/tree.svg">
+		<img src="images/car.svg">
 	</div>
 </section>
 <section class="contact">
