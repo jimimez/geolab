@@ -2,10 +2,7 @@
 	max-width: 1920px;
 	max-height:1280px;
 	overflow: hidden;
-	/*background: url(../images/sliderimage1.png);*/
-	background-size: contain;
-	background-repeat: no-repeat;
-	/*padding:30px;*/
+	padding-bottom: 66.66%;
 	position: relative;
 }
 
@@ -15,6 +12,7 @@
 
 .slider img {
 	width:100%;
+	height:100%;
 }
 
 .logo {
@@ -57,6 +55,15 @@
 	opacity: 0.7;
 	z-index: 20;
 	display: none;
+}
+
+.slider-container {
+	width: 100%;
+    height: 100%;
+	display: flex;
+	position:absolute;
+	left:0;
+	top:0;
 }
 
 .show {
@@ -397,4 +404,39 @@ button {
 
 .newsletter {
 	margin-top: 63%;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	color:#000000;
+	font-weight: bold;
+	padding-top: 1%;
+}
+
+.contact-container {
+	border:1px solid #EBE8DE;
+}
+
+.social-icon {
+	border-radius: 50%;
+	border:1px solid black;
+	width:2vw;
+	height: 2vw;
+	padding:3px;
+	text-align: center;
+	line-height: 1vw;
+}
+
+.social-icon img {
+	width:90%;
+	height:90%;
+	text-align: center;
+
+}
+
+.social {
+	margin: auto;
+    width: 24%;
+    justify-content: space-between;
 }
